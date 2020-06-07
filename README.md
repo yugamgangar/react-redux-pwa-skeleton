@@ -6,7 +6,7 @@ This is a custom template of a react based progressive web app with Redux ans Sa
 
 ## Why is it needed?
 
-Now you dont have to setup whole project typing all the boiler plate again and again. Custom made easy to go template suitable for a industry based app.
+Now you don't have to setup whole project typing all the boiler plate code everytime. Custom made easy to go template suitable for industry based app.
 
 ## Get Started
 
