@@ -1,0 +1,82 @@
+@import '../tools/variables';
+
+h1 {
+	font-family: $opensans-regular;
+	&.bold {
+		font-family: $opensans-bold;
+	}
+	&.xl {
+		font-size: $font-size-40;
+	}
+	&.s {
+		font-size: $font-size-32;
+	}
+}
+
+h2 {
+	font-family: $opensans-regular;
+	&.bold {
+		font-family: $opensans-bold;
+	}
+	&.xl {
+		font-size: $font-size-32;
+	}
+	&.s {
+		font-size: $font-size-24;
+	}
+}
+
+h3 {
+	font-family: $opensans-regular;
+	&.bold {
+		font-family: $opensans-bold;
+	}
+	&.xl {
+		font-size: $font-size-24;
+	}
+	&.s {
+		font-size: $font-size-16;
+	}
+}
+
+h4 {
+	font-family: $opensans-regular;
+	&.bold {
+		font-family: $opensans-bold;
+	}
+}
+
+h5 {
+	font-family: $opensans-regular;
+	&.bold {
+		font-family: $opensans-bold;
+	}
+}
+
+body {
+	font-family: $opensans-regular;
+	&.bold {
+		font-family: $opensans-bold;
+	}
+	&.xl {
+		font-size: $font-size-16;
+	}
+	&.s {
+		font-size: $font-size-12;
+	}
+}
+
+caption {
+	font-family: $opensans-italic;
+	font-style: italic;
+
+	&.bold {
+		font-family: $opensans-bold;
+	}
+	&.xl {
+		font-size: $font-size-16;
+	}
+	&.s {
+		font-size: $font-size-8;
+	}
+}

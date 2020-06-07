@@ -1,0 +1,79 @@
+
+// COLOR GUIDE
+
+// primary Flat Colors
+$primary-color: #4c7add;
+$accent-color: #1ab4fb;
+$highlighter: #dea6ff;
+
+// White's & Black's
+$pure-white: #fff;
+$white: #f9f9f9;
+$black: #242424;
+// gray shades
+$very-light-gray-one: #fafafa;
+$very-light-gray-two: #e5e5e5;
+$light-gray: #cccccc;
+$dark-gray: #999999;
+$very-dark-gray-one: #666666;
+$very-dark-gray-two: #333333;
+
+// form Colors
+$pure-black: #000000;
+$red: #d91a1a;
+// message show shades
+$warning-color: #f2cd00;
+$danger-color: #db3d15;
+$information-color: #0880db;
+$success-color: #5faf18;
+
+// Gradients
+$gradient-one: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+$gradient-two: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+$gradient-three: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+$gradient-four: linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%);
+
+// Shadows
+$shadow-light: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-medium: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-dark: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+// font's
+$opensans-regular: 'OpenSans-Regular';
+$opensans-bold: 'OpenSans-Bold';
+$opensans-italic: 'OpenSans-Italic';
+
+// fonts Guide
+$font-size-40: 40px;
+$font-size-34: 34px;
+$font-size-32: 32px;
+$font-size-30: 30px;
+$font-size-24: 24px;
+$font-size-26: 26px;
+$font-size-22: 22px;
+$font-size-20: 20px;
+$font-size-18: 18px;
+$font-size-16: 16px;
+$font-size-14: 14px;
+$font-size-12: 12px;
+$font-size-10: 10px;
+$font-size-8: 8px;
+
+//input's Background
+$disabled-background-color: #e9e9e9;
+$error-background-color: #fff6f6;
+
+// form borders
+$default-border: solid 1px #1c8976;
+$focus-box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+$focus-border: solid 1.5px #26bba2;
+$disabled-border: solid 1px #979797;
+$error-border: solid 1.5px #d91a1a;
+
+@mixin page-base-layout {
+	width: 100%;
+	height: 100vh;
+	overflow-y: auto;
+	padding: auto;
+	padding-top: 90px;
+}
